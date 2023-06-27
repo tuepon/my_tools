@@ -1,0 +1,14 @@
+- name: dev 
+  host: ec2-22-333-44-55.ap-northeast-1.compute.amazonaws.com
+  user: ec2-user
+  key: keyname-without-extension
+
+- name: staging 
+  host: ec2-11-22-33-444.ap-northeast-1.compute.amazonaws.com
+  user: ec2-user
+  key: keyname-without-extension
+
+- name: production 
+  host: ec2-111-222-33-444.ap-northeast-1.compute.amazonaws.com
+  user: ec2-user
+  key: keyname-without-extension
